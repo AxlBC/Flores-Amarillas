@@ -20,6 +20,11 @@ body {
   perspective: 1000px;
 }
 
+.flower {
+  position: absolute;
+  padding: 0 0 10vh;
+}
+
 .night {
   position: fixed;
   left: 50%;
@@ -983,4 +988,11 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 }
 .not-loaded * {
   animation-play-state: paused !important;
+}
+
+.espacio {
+  height: 5em;
+  width: 100%;
+  position: absolute;
+  display: inline-block;
 }

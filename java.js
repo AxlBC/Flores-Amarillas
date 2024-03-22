@@ -4,3 +4,8 @@ onload = () => {
       clearTimeout(c);
     }, 1000);
   };
+
+// Music
+function music() {
+    document.getElementById('music').play();
+}
